@@ -10,19 +10,18 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <header>
-      <identifier id="com.urbancode.air.plugin.SendEmailwcc" version="2" name="Send Email with CC"/>
+      <identifier id="com.urbancode.air.plugin.SendEmailCC" version="2" name="Send Email with CC"/>
       <description>
-          This plugin allows SMTP e-mail with CC capability.</description>
+          The plugin adds new file utilities beyond what is provided in the standard FileUtils plugin.</description>
       <tag>Utilities/Misc</tag>
     </header>
 
 	<!-- ==================================== -->
     <!--        Send an SMTP email            -->
     <!-- ==================================== -->
-    <step-type name="Send SMTP Email w/CC">
+    <step-type name="Send SMTP Email">
       <description>Send an SMTP email</description>
       <properties>
-
         <property name="toList" required="true">
           <property-ui type="textAreaBox"
                        label="To List"
