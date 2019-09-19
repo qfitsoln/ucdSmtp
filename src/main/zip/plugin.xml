@@ -10,7 +10,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <header>
-      <identifier id="com.urbancode.air.plugin.SendEmail" version="2" name="Send Email with CC"/>
+      <identifier id="com.urbancode.air.plugin.SendEmailwcc" version="2" name="Send Email with CC"/>
       <description>
           This plugin allows SMTP e-mail with CC capability.</description>
       <tag>Utilities/Misc</tag>
@@ -19,7 +19,7 @@
 	<!-- ==================================== -->
     <!--        Send an SMTP email            -->
     <!-- ==================================== -->
-    <step-type name="Send SMTP Email">
+    <step-type name="Send SMTP Email w/CC">
       <description>Send an SMTP email</description>
       <properties>
 
