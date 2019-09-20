@@ -19,7 +19,7 @@
 	<!-- ==================================== -->
     <!--        Send an SMTP email            -->
     <!-- ==================================== -->
-    <step-type name="Send SMTP Email">
+    <step-type name="Send SMTP Email with CC">
       <description>Send an SMTP email</description>
       <properties>
         <property name="toList" required="true">
