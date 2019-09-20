@@ -11,12 +11,6 @@
 *~
 
 # ignore compilation related directories in the root of the project
-/build
-/dist
-/lib
-/ecbin
-/bin
-/releases
 
 plugin-build.xml
 i18n-scraper.groovy
